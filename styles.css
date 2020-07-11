@@ -1,0 +1,493 @@
+body {
+    background-color: whitesmoke;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: goldenrod;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+    font-family: roboto;
+}
+
+h2 {
+    text-align: center;
+    color: goldenrod;
+    font-family: roboto;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: center;
+    margin-left: 3%;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 1rem;
+}
+
+table {
+    table-layout: fixed;
+}
+
+td {
+    width: 25%;
+}
+
+th {
+    text-align: left;
+}
+
+li {
+    margin: 3% 25% auto 25%;
+}
+
+
+/**********************************Class Containers***************************/
+
+.header-content a {
+    color: goldenrod;
+}
+
+.header-content a:hover {
+    color: gold;
+}
+
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 90px;
+}
+
+.header-content {
+    color: goldenrod;
+    text-align: center;
+    word-spacing: 30px;
+    margin-right: 30px;
+}
+
+.curved_upper {
+    position: relative;
+    top: 60px;
+    background-color: white;
+}
+
+.curved {
+    background-color: goldenrod;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    height: 440px;
+}
+
+.curved h1 {
+    position: relative;
+    color: white;
+    top: 45px;
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.curved p {
+    font-size: 1.3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 30px;
+}
+
+.image-container {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.profile-img {
+    position: absolute;
+    top: 280px;
+    left: 45%;
+    width: 150px;
+    height: 150px;
+}
+
+.footer-container {
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+    background-color: goldenrod;
+    text-decoration-color: black;
+}
+
+.dosa-diary-part-1 {
+    padding-top: 8%;
+    padding-left: 10%;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    float: left;
+}
+
+.DD-title {
+    text-align: center;
+}
+
+.DD-title-2 {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: SourceSansPro;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button1 {
+    position: absolute;
+    left: 53rem;
+    background-color: white;
+    color: black;
+    border: 2px solid goldenrod;
+}
+
+.button1:hover {
+    background-color: gold;
+    color: white;
+}
+
+.button2 {
+    position: absolute;
+    right: 53rem;
+    background-color: white;
+    color: black;
+    border: 2px solid goldenrod;
+}
+
+.button2:hover {
+    background-color: gold;
+    color: white;
+}
+
+.dosa-diary-part-2 {
+    padding-top: 8%;
+    padding-right: 10%;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    float: right;
+}
+
+#back-link {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.project-title {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.project-h2 {
+    margin-top: 6%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.project-para {
+    margin: 3% 20% auto 20%;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.grid-item-1 {
+    border-radius: 50%;
+    position: absolute;
+    top: 140%;
+    left: 15%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+.grid-item-1 h4 {
+    padding-left: 6%;
+    padding-top: 17%;
+    font-size: 1.7rem;
+}
+
+.grid-item-2 {
+    border-radius: 50%;
+    position: absolute;
+    top: 140%;
+    left: 43%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+.grid-item-2 h4 {
+    padding-top: 10%;
+    font-size: 1.7rem;
+}
+
+.grid-item-3 {
+    border-radius: 50%;
+    position: absolute;
+    top: 140%;
+    right: 15%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+.grid-item-3 h4 {
+    padding-left: 10%;
+    padding-top: 7%;
+    font-size: 1.7rem;
+}
+
+.para-2 {
+    margin: 3% 15% auto 20%;
+    text-align: center;
+}
+
+.food-list {
+    font-size: 1rem;
+    text-align: center;
+    list-style-type: none;
+}
+
+.user-persona {
+    margin-left: 2%;
+    padding: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.user-persona-table th,
+td {
+    border-right: 1px solid orange;
+    padding: 15px;
+}
+
+.user-persona-table th {
+    background-color: yellow;
+    text-align: center;
+}
+
+.FAQ-list li {
+    list-style-type: circle;
+}
+
+.sitemap-image {
+    margin: 3% 25% auto 25%;
+    width: 40rem;
+    height: 60rem;
+}
+
+.test-image-1 {
+    margin: 3% 20% auto 20%;
+    width: 50rem;
+    height: 20rem;
+}
+
+.usability-test-tree-image {
+    margin: 3% 20% auto 20%;
+    width: 50rem;
+    height: 30rem;
+}
+
+.test-task {
+    margin: 3% 20% auto 20%;
+    width: 50rem;
+    height: 15rem;
+}
+
+.scribble-1 {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 582px;
+    margin-bottom: 6%;
+    position: static;
+}
+
+.scribble-1 h1 {
+    margin-top: 6%;
+    padding-top: 4%;
+    font-size: 5rem;
+    font-family: Dancing Script;
+}
+
+.scribble-1 p {
+    text-align: justify;
+    color: goldenrod;
+    padding: 4%;
+    font-family: Source sans pro SemiBold;
+    font-size: 1.4rem;
+}
+
+.scribble-1-image {
+    float: left;
+}
+
+#U {
+    font-weight: bolder;
+    font-size: 7rem;
+}
+
+.scribble-2 {
+    float: right;
+    margin-bottom: 10%;
+}
+
+.scribble-2-background {
+    position: absolute;
+    top: 2380px;
+    right: 200px;
+    background-color: gold;
+    width: 650px;
+    height: 500px;
+    z-index: -1;
+}
+
+.scribble-2-h1 {
+    margin-top: 2%;
+    padding-right: 2%;
+    font-size: 5rem;
+    font-family: Dancing Script;
+}
+
+.scribble-2-p {
+    margin: auto 10% auto auto;
+    text-align: justify;
+    color: goldenrod;
+    padding: 4%;
+    font-family: Source sans pro SemiBold;
+    font-size: 1.4rem;
+}
+
+.about-my-image {
+    position: absolute;
+    top: 52%;
+    left: 19%;
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+.about-container {
+    background-color: gold;
+    float: left;
+    margin-top: 20%;
+    margin-left: 15%;
+    z-index: -1;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 10%;
+}
+
+.about-h1 {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    font-family: Source sans Pro Bold;
+}
+
+.about-para {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 1.3rem;
+    color: goldenrod;
+}
+
+.resume-button {
+    position: absolute;
+    top: 100%;
+    left: 58rem;
+    background-color: white;
+    color: black;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+}
+
+.resume-button:hover {
+    background-color: gold;
+    color: white;
+}
+
+.wireframe-mobile::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mobile-layout-item {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.mobile-layout-item img {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 15rem;
+    height: 50%;
+}
+
+.wireframe-web img {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 40rem;
+}
+
+.quick-transfer {
+    position: fixed;
+}
+
+.contact-apps {
+    position: absolute;
+    top: 190rem;
+    right: 10%;
+}
+
+.app {
+    float: left;
+    padding: 2rem;
+}
+
+.app img {
+    width: 3rem;
+}
+
+.contact-apps-about {
+    position: absolute;
+    top: 45rem;
+    right: 13%;
+}
