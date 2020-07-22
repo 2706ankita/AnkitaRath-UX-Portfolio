@@ -364,6 +364,8 @@ td {
 .scribble-2 {
     float: right;
     margin-bottom: 10%;
+    border: 7px double goldenrod;
+    margin-right: 1rem;
 }
 
 .scribble-2-background {
@@ -473,7 +475,7 @@ td {
 
 .contact-apps {
     position: absolute;
-    top: 190rem;
+    top: 96rem;
     right: 10%;
 }
 
@@ -490,4 +492,41 @@ td {
     position: absolute;
     top: 45rem;
     right: 13%;
+}
+
+.vino {
+    margin-top: 15%;
+    float: left;
+}
+
+.vino-description {
+    margin-top: 23%;
+}
+
+.vinoButton {
+    margin-left: 10%;
+}
+
+.seepic-image {
+    margin-top: 20%;
+    margin-right: 1rem;
+    float: right;
+    width: 640px;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 10px 15px 20px gray;
+}
+
+.seepic-description {
+    margin-top: 25%;
+    margin-right: 20%;
+}
+
+.seepic-button {
+    margin-right: 8%;
+}
+
+.scribble {
+    position: absolute;
+    top: 170rem;
 }
